@@ -1,8 +1,8 @@
 package main
 
 import (
-	"base_frame/pkg/common/cmd"
-	"base_frame/pkg/program"
+	"shopping/pkg/common/cmd"
+	"shopping/pkg/program"
 )
 
 func main() {

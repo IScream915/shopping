@@ -1,8 +1,8 @@
 package config
 
 import (
-	"base_frame/pkg/db/mysqlutil"
-	"base_frame/pkg/db/redisutil"
+	"shopping/pkg/db/mysqlutil"
+	"shopping/pkg/db/redisutil"
 )
 
 type Config struct {

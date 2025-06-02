@@ -1,9 +1,9 @@
 package repo
 
 import (
-	"base_frame/internal/repo/models"
 	"context"
 	"gorm.io/gorm"
+	"shopping/internal/repo/models"
 )
 
 type User interface {

@@ -1,11 +1,11 @@
 package middleware
 
 import (
-	"base_frame/internal/repo"
-	"base_frame/pkg/pcontext"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"shopping/internal/repo"
+	"shopping/pkg/pcontext"
 )
 
 func Auth(tokenRepo repo.UserToken) gin.HandlerFunc {

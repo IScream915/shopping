@@ -1,11 +1,11 @@
 package repo
 
 import (
-	"base_frame/internal/errcode"
-	"base_frame/internal/repo/models"
 	"context"
 	"errors"
 	"github.com/redis/go-redis/v9"
+	"shopping/internal/errcode"
+	"shopping/internal/repo/models"
 	"time"
 )
 

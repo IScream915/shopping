@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"base_frame/pkg/constant"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
+	"shopping/pkg/constant"
 )
 
 // gin.HandlerFunc 是Gin框架中用来表示中间件或路由处理函数的类型

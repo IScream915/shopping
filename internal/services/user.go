@@ -1,18 +1,18 @@
 package services
 
 import (
-	"base_frame/global"
-	"base_frame/internal/dto"
-	"base_frame/internal/repo"
-	"base_frame/internal/repo/models"
-	"base_frame/pkg/email"
-	"base_frame/pkg/pcontext"
 	"context"
 	"errors"
 	"fmt"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
+	"shopping/global"
+	"shopping/internal/dto"
+	"shopping/internal/repo"
+	"shopping/internal/repo/models"
+	"shopping/pkg/email"
+	"shopping/pkg/pcontext"
 	"time"
 )
 

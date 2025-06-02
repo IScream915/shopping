@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-const DefaultGlobalConfigPath = "dev/globalConfig.yaml"
+const DefaultGlobalConfigPath = "config/globalConfig.yaml"
 
 type Config struct {
 	Salt *Salt `mapstructure:"salt"`

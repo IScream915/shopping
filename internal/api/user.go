@@ -1,11 +1,11 @@
 package api
 
 import (
-	"base_frame/internal/dto"
-	"base_frame/internal/services"
-	"base_frame/pkg/pcontext"
-	"base_frame/pkg/response"
 	"github.com/gin-gonic/gin"
+	"shopping/internal/dto"
+	"shopping/internal/services"
+	"shopping/pkg/pcontext"
+	"shopping/pkg/response"
 )
 
 type User interface {

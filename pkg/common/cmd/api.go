@@ -1,18 +1,18 @@
 package cmd
 
 import (
-	"base_frame/internal"
-	"base_frame/pkg/cmd"
-	"base_frame/pkg/common/config"
-	"base_frame/pkg/program"
 	"context"
 	"flag"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"log"
+	"shopping/internal"
+	"shopping/pkg/cmd"
+	"shopping/pkg/common/config"
+	"shopping/pkg/program"
 )
 
-const DefaultConfigPath = "dev/config.yaml"
+const DefaultConfigPath = "config/config.yaml"
 
 type ApiCmd struct {
 	*cmd.RootCmd
@@ -36,7 +36,7 @@ func (a *ApiCmd) runE() error {
 	flag.Parse()
 
 	if *configPath == "" {
-		log.Fatal("请使用 -c 参数指定配置文件路径，例如：-c dev/config")
+		log.Fatal("请使用 -c 参数指定配置文件路径，例如：-c config/config.yaml")
 	}
 
 	// 使用 Viper 加载配置文件

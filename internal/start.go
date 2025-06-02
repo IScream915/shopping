@@ -1,22 +1,22 @@
 package internal
 
 import (
-	"base_frame/global"
-	"base_frame/internal/api"
-	"base_frame/internal/middleware"
-	"base_frame/internal/repo"
-	"base_frame/internal/repo/models"
-	"base_frame/internal/services"
-	"base_frame/pkg/common/config"
-	"base_frame/pkg/db/mysqlutil"
-	"base_frame/pkg/db/redisutil"
-	"base_frame/pkg/validation"
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/fx"
 	"gorm.io/gorm"
+	"shopping/global"
+	"shopping/internal/api"
+	"shopping/internal/middleware"
+	"shopping/internal/repo"
+	"shopping/internal/repo/models"
+	"shopping/internal/services"
+	"shopping/pkg/common/config"
+	"shopping/pkg/db/mysqlutil"
+	"shopping/pkg/db/redisutil"
+	"shopping/pkg/validation"
 )
 
 // NewGinEngine 构造一个新的Gin引擎，用于生成一个新的经过初始化和配置的Gin引擎

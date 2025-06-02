@@ -1,2 +1,2 @@
-# base-frame
-一个简单的基于Gin的http框架，正在持续完善
+# shopping
+# 一个商城，秒杀，高并发项目，从base-frame迁移过来

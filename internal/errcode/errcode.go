@@ -1,6 +1,6 @@
 package errcode
 
-import "base_frame/pkg/errs"
+import "shopping/pkg/errs"
 
 var (
 	DBRecordNotFound     = errs.New(2003, "no relevant record")     // 数据库中没有相关记录
